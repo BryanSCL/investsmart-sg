@@ -1213,3 +1213,123 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
 
 /* Modal category accent */
 .modal-cat { color: var(--accent) !important; }
+
+/* ── Hero inline stats ── */
+.hero-stats-inline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 22px 0 18px;
+  border-top: 1px solid var(--border-s);
+  border-bottom: 1px solid var(--border-s);
+  margin: 20px 0 0;
+}
+.hsi-u {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex: 1;
+}
+.hsi-fig {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(26px, 3.5vw, 40px);
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  line-height: 1;
+}
+.hsi-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-2);
+  line-height: 1.3;
+}
+.hsi-sep {
+  color: var(--accent-mid);
+  font-size: 12px;
+  padding: 0 16px;
+  flex-shrink: 0;
+}
+
+/* ── Hero Bull ── */
+.hero-bull-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+.hero-bull-wrap .bull-svg {
+  width: clamp(140px, 22vw, 290px);
+  height: auto;
+  filter: drop-shadow(4px 10px 24px rgba(13,11,8,0.18));
+  transition: transform 0.6s ease;
+}
+.hero-bull-wrap .bull-svg:hover { transform: translateX(6px); }
+
+/* ── Market Mood Banner (Blog) ── */
+.market-mood-banner {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 52px 28px 44px;
+  border-bottom: 1.5px solid var(--border-s);
+}
+.mmood-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.mmood-bear { flex-direction: row-reverse; }
+.mmood-text { display: flex; flex-direction: column; gap: 8px; }
+.mmood-text-r { text-align: right; }
+.mmood-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(26px, 4vw, 42px);
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  line-height: 1;
+}
+.mmood-sub {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--ink-3);
+  line-height: 1.5;
+  max-width: 180px;
+}
+.mmood-rule {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+.mmood-vs {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(48px, 7vw, 76px);
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+.mmood-side svg {
+  width: clamp(80px, 12vw, 150px);
+  height: auto;
+  flex-shrink: 0;
+  filter: drop-shadow(2px 6px 14px rgba(13,11,8,0.14));
+  transition: transform 0.4s ease;
+}
+.mmood-bull svg:hover { transform: translateX(5px); }
+.mmood-bear svg:hover { transform: translateX(-5px); }
+
+@media (max-width: 720px) {
+  .market-mood-banner { flex-direction: column; gap: 32px; padding: 36px 20px; }
+  .mmood-side { flex-direction: column; text-align: center; }
+  .mmood-bear { flex-direction: column; }
+  .mmood-text-r { text-align: center; }
+  .mmood-sub { max-width: 100%; }
+  .mmood-rule { padding: 0; }
+  .hero-bull-wrap { display: none; }
+  .hero-stats-inline { flex-wrap: wrap; gap: 12px; }
+  .hsi-sep { display: none; }
+  .hsi-u { flex: 0 0 45%; }
+}
