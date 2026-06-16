@@ -15,6 +15,17 @@
   --border-x:     rgba(13,11,8,0.45);
   --good:         #2D6A4F;
   --warn:         #8B5E3C;
+  --accent:       #B8924A;
+  --accent-light: rgba(184,146,74,0.10);
+  --accent-mid:   rgba(184,146,74,0.22);
+  --cat-start:    #3A6B4A;
+  --cat-sg:       #1A5276;
+  --cat-etf:      #6C3483;
+  --cat-tax:      #922B21;
+  --cat-strategy: #1F618D;
+  --cat-bonds:    #196F3D;
+  --cat-robo:     #7D6608;
+  --cat-retire:   #784212;
   --ff-display:   'Bebas Neue', sans-serif;
   --ff-body:      'Inter', sans-serif;
   --nav-h:        64px;
@@ -949,4 +960,256 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
   .why-row { grid-template-columns: 40px 1fr; }
   .why-badge { display: none; }
   .modal-box { padding: 24px 20px; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* ════════════════════════════
+   ACCENT & VISUAL ENHANCEMENTS
+═════════════════════════════ */
+
+/* Accent bar on nav brand */
+.nav-brand span.accent { color: var(--accent); }
+
+/* Author byline */
+.byline {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  border: 1.5px solid var(--accent-mid);
+  padding: 5px 14px;
+  border-radius: 100px;
+  white-space: nowrap;
+  background: var(--accent-light);
+}
+
+/* Hero accent strip */
+.hero-accent-strip {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  overflow-x: auto;
+  border-bottom: 2px solid var(--accent);
+}
+.has-ticker {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ticker-val { color: var(--accent); }
+.ticker-sep { color: rgba(230,224,210,0.25); }
+
+/* Visual stat grid */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border: 1.5px solid var(--border-s);
+  margin-top: 40px;
+}
+.stat-card {
+  padding: 28px 24px;
+  border-right: 1.5px solid var(--border-s);
+  text-align: center;
+}
+.stat-card:last-child { border-right: none; }
+.stat-card-fig {
+  font-family: var(--ff-display);
+  font-size: 52px;
+  line-height: 1;
+  color: var(--accent);
+  display: block;
+}
+.stat-card-sub {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--ink-2);
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.stat-card-desc {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* Pull quote */
+.pull-quote {
+  border-left: 4px solid var(--accent);
+  padding: 24px 32px;
+  background: var(--accent-light);
+  margin: 32px 0;
+}
+.pull-quote p {
+  font-family: var(--ff-display);
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+.pull-quote cite {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-top: 12px;
+  font-style: normal;
+}
+
+/* Highlight box */
+.hl-box {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 32px 36px;
+  margin: 32px 0;
+}
+.hl-box-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.hl-box-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(230,224,210,0.88);
+}
+.hl-box-text strong { color: var(--cream); }
+
+/* Blog row category indicator */
+.blog-row { position: relative; }
+.blog-row::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  border-radius: 0;
+  opacity: 0.6;
+}
+.blog-row[data-cat="getting-started"]::before { background: var(--cat-start); }
+.blog-row[data-cat="singapore"]::before { background: var(--cat-sg); }
+.blog-row[data-cat="etfs"]::before { background: var(--cat-etf); }
+.blog-row[data-cat="tax"]::before { background: var(--cat-tax); }
+.blog-row[data-cat="strategy"]::before { background: var(--cat-strategy); }
+.blog-row[data-cat="bonds"]::before { background: var(--cat-bonds); }
+.blog-row[data-cat="robo-advisors"]::before { background: var(--cat-robo); }
+.blog-row[data-cat="retirement"]::before { background: var(--cat-retire); }
+
+/* Blog number accent */
+.blog-n { color: var(--accent) !important; }
+
+/* Blog category tag color */
+.blog-row[data-cat="getting-started"] .blog-cat { color: var(--cat-start); }
+.blog-row[data-cat="singapore"] .blog-cat { color: var(--cat-sg); }
+.blog-row[data-cat="etfs"] .blog-cat { color: var(--cat-etf); }
+.blog-row[data-cat="tax"] .blog-cat { color: var(--cat-tax); }
+.blog-row[data-cat="strategy"] .blog-cat { color: var(--cat-strategy); }
+.blog-row[data-cat="bonds"] .blog-cat { color: var(--cat-bonds); }
+.blog-row[data-cat="robo-advisors"] .blog-cat { color: var(--cat-robo); }
+.blog-row[data-cat="retirement"] .blog-cat { color: var(--cat-retire); }
+
+/* Modal article enhancements */
+.modal-body .stat-row {
+  display: flex;
+  gap: 0;
+  border: 1.5px solid var(--border-s);
+  margin: 24px 0;
+}
+.modal-body .stat-cell {
+  flex: 1;
+  padding: 20px 16px;
+  text-align: center;
+  border-right: 1px solid var(--border);
+}
+.modal-body .stat-cell:last-child { border-right: none; }
+.modal-body .stat-cell .fig {
+  font-family: var(--ff-display);
+  font-size: 36px;
+  color: var(--accent);
+  line-height: 1;
+  display: block;
+}
+.modal-body .stat-cell .lbl {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--ink-3);
+  margin-top: 6px;
+  display: block;
+}
+.modal-body .key-box {
+  background: var(--accent-light);
+  border-left: 3px solid var(--accent);
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+.modal-body .key-box strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.modal-body .key-box p { margin: 0; color: var(--ink); }
+.modal-body .compare-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 20px 0;
+}
+.modal-body .compare-col {
+  padding: 16px;
+  border: 1.5px solid var(--border-s);
+}
+.modal-body .compare-col h4 {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  color: var(--ink-3);
+}
+
+/* Accent on stat strip */
+.stats-strip { border-top: 3px solid var(--accent); }
+.stat-fig { color: var(--accent); }
+
+/* Accent on section label */
+.blk-label { color: var(--accent) !important; }
+.banner-label { color: var(--accent) !important; }
+.slash { color: var(--accent) !important; }
+
+/* Explore card accent arrow */
+.exp-top span:last-child { color: var(--accent); font-weight: 700; }
+
+/* Why row number accent */
+.why-n { color: var(--accent); }
+.road-n { color: var(--accent-mid); }
+
+/* Footer accent */
+.footer { border-top: 3px solid var(--accent); }
+.footer-brand { color: var(--accent); }
+
+/* Concept number accent */
+.concept-n { color: var(--accent) !important; }
+.concept-plus { color: var(--accent) !important; }
+
+/* Active nav accent */
+.nav-link.active { border-bottom-color: var(--accent) !important; color: var(--ink) !important; }
+.nav-link:hover { color: var(--accent) !important; border-bottom-color: var(--accent) !important; }
+
+/* Modal category accent */
+.modal-cat { color: var(--accent) !important; }
