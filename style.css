@@ -158,9 +158,28 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
    HERO
 ═════════════════════════════ */
 .hero {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 28px 28px 0;
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(230, 224, 210, 0.52);
+  pointer-events: none;
+}
+.hero > * {
+  position: relative;
+  z-index: 1;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-top {
   display: flex;
@@ -223,11 +242,14 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
 }
 .pill-cta:hover { opacity: 0.75; }
 .hero-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  padding: 32px 0 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(230,224,210,0.82);
+  padding: 18px 20px 28px;
+  margin-top: 0;
   border-bottom: 1.5px solid var(--border-s);
+  text-align: center;
 }
 .slash {
   font-size: 11px;
@@ -1190,7 +1212,7 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
 /* Accent on section label */
 .blk-label { color: var(--accent) !important; }
 .banner-label { color: var(--accent) !important; }
-.slash { color: var(--accent) !important; }
+.slash { color: var(--ink) !important; opacity: 0.6; }
 
 /* Explore card accent arrow */
 .exp-top span:last-child { color: var(--accent); font-weight: 700; }
@@ -1219,16 +1241,23 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
   display: flex;
   align-items: center;
   gap: 0;
-  padding: 22px 0 18px;
-  border-top: 1px solid var(--border-s);
-  border-bottom: 1px solid var(--border-s);
+  padding: 18px 20px;
+  border-top: 1px solid rgba(13,11,8,0.35);
+  border-bottom: 1px solid rgba(13,11,8,0.35);
   margin: 20px 0 0;
+  background: rgba(230,224,210,0.82);
 }
 .hsi-u {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 6px;
   flex: 1;
+  min-width: 0;
+}
+.hsi-lbl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .hsi-fig {
   font-family: 'Bebas Neue', sans-serif;
@@ -1241,14 +1270,15 @@ h1,h2,h3,h4 { font-weight: 600; line-height: 1.2; }
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.09em;
-  color: var(--ink-2);
+  color: var(--ink);
   line-height: 1.3;
+  font-weight: 600;
 }
 .hsi-sep {
   color: var(--accent-mid);
   font-size: 12px;
-  padding: 0 16px;
-  flex-shrink: 0;
+  padding: 0 10px;
+  flex-shrink: 1;
 }
 
 /* ── Hero Bull ── */
