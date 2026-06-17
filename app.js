@@ -73,7 +73,7 @@ const blogArticles = {
 
 <h3>WHY MOST PEOPLE DON'T START (AND WHY THEY'RE WRONG)</h3>
 <p>The three most common excuses are: "I don't have enough money," "I don't know enough," and "I'll do it when the market dips." All three are traps. The truth is that time in the market beats timing the market — always. Every month you delay is a month of compounding you permanently lose.</p>
-<p>Here's a concrete example. Two friends, Amir and Wei. Amir starts at 25, invests $300/month at 7% p.a. and stops at 45 — 20 years of contributions. Wei waits until 35, also invests $300/month at 7% p.a. until 65 — also 20 years of contributions. Same amount invested ($72,000). Amir ends up with <strong>$792,000</strong>. Wei ends up with <strong>$378,000</strong>. The only difference: Amir started 10 years earlier. That 10-year head start is worth more than $400,000.</p>
+<p>Here's a concrete example. Two friends, Amir and Wei. Amir starts at 25, invests $300/month at 7% p.a. and stops at 45 — 20 years of contributions. Wei waits until 35, also invests $300/month at 7% p.a. until 65 — also 20 years of contributions. Same amount invested ($72,000). Amir ends up with <strong>$631,000</strong>. Wei ends up with <strong>$366,000</strong>. The only difference: Amir started 10 years earlier. That 10-year head start is worth approximately $265,000 — nearly four times what either of them actually invested.</p>
 
 <div class="key-box">
   <strong>// THE SINGLE MOST IMPORTANT RULE</strong>
@@ -440,10 +440,11 @@ Foreigners: $35,700/year</p>
 <p>A common SRS investment approach: 70% in VWRA (global equity growth), 30% in SSBs or short-duration bond funds (stability). Rebalance annually. Add to positions each time you make a new annual SRS contribution.</p>
 
 <h3>WITHDRAWAL RULES — THE CRITICAL DETAILS</h3>
-<p><strong>Age 62 (statutory retirement age):</strong> You can start withdrawals. Only 50% of each withdrawal amount is taxable as income. If you withdraw $50,000 in a year, only $25,000 is added to your taxable income for that year.</p>
-<p><strong>10-year withdrawal window:</strong> You have up to 10 years after the statutory retirement age to withdraw your SRS balance. This allows you to spread withdrawals over a decade, keeping your annual taxable income low (ideally within the lower tax brackets).</p>
+<p><strong>Withdrawal age — know your number:</strong> Your SRS withdrawal age is pegged to the statutory retirement age <em>at the time you first contributed</em>. Members who opened their SRS account before 1 July 2022 have a withdrawal age of 62. Members who first contributed on or after 1 July 2022 have a withdrawal age of 63, following Singapore's statutory retirement age revision. Check your account opening date at your bank to confirm which applies to you. (Source: IRAS, MAS)</p>
+<p><strong>At your withdrawal age:</strong> You can start withdrawals. Only 50% of each withdrawal amount is taxable as income. If you withdraw $50,000 in a year, only $25,000 is added to your taxable income for that year.</p>
+<p><strong>10-year withdrawal window:</strong> You have up to 10 years after your SRS withdrawal age to draw down your balance. This allows you to spread withdrawals over a decade, keeping your annual taxable income low and ideally within the lower tax brackets.</p>
 <p><strong>The tax optimisation:</strong> A retiree withdrawing $40,000/year from SRS — only $20,000 is taxable. Combined with the personal income tax relief and assuming no other income, most retirees pay zero or near-zero tax on SRS withdrawals. The effective tax rate on SRS money from contribution to withdrawal can be as low as 0–5%, compared to the 11.5–22% rate paid when the contribution was deducted.</p>
-<p><strong>Early withdrawal (before 62):</strong> A 5% penalty applies on top of full taxation of the withdrawn amount. Do not make early withdrawals unless absolutely necessary.</p>
+<p><strong>Early withdrawal (before your SRS withdrawal age):</strong> A 5% penalty applies on top of full taxation of the withdrawn amount. Do not make early withdrawals unless absolutely necessary.</p>
 
 <h3>WHO SHOULD OPEN AN SRS ACCOUNT TODAY?</h3>
 <p>If you earn more than $80,000 per year (placing you in the 11.5% marginal tax bracket or above), SRS contributions provide meaningful tax savings. The higher your income, the more valuable SRS becomes. Even at $80,000/year, a full $15,300 contribution saves approximately $1,760 in taxes annually — a guaranteed 11.5% return on your contribution before any investment gains. Open an SRS account at your bank today. Transfer $500 to get started. Invest it in VWRA. Then set up a monthly contribution plan for the rest of the year.</p>`
@@ -627,6 +628,69 @@ The fee difference: <strong>$311,000</strong> — more than three times your ori
 
 <h3>THE INVESTOR WHO MISSED THE BEST DAYS</h3>
 <p>JP Morgan's analysis is definitive: an investor who remained fully invested in the S&P 500 from 2003 to 2023 turned $10,000 into $64,844. An investor who missed only the 10 best days (out of 5,000 trading days): $29,708. Missed the 20 best days: $18,097. Missed the 40 best days: $8,150 — less than the original investment. The best days overwhelmingly occur during or immediately after market crashes — within weeks of the worst days. Investors who sell during crashes systematically miss the most powerful recovery days. The cure: stay invested. Always.</p>`
+  },
+
+  '13': {
+    cat: 'STRATEGY',
+    title: 'IPOS EXPLAINED: THE HYPE, THE REALITY, AND THE SPACEX QUESTION',
+    body: `
+<div class="stat-row">
+  <div class="stat-cell"><span class="fig">~18%</span><span class="lbl">Average first-day IPO pop (historical US)</span></div>
+  <div class="stat-cell"><span class="fig">–3 to –4%</span><span class="lbl">Avg. annual underperformance vs market, 3 yrs post-IPO</span></div>
+  <div class="stat-cell"><span class="fig">$200B+</span><span class="lbl">SpaceX private valuation (2024 tender offers)</span></div>
+</div>
+
+<p>Every few years, a company goes public and the financial world holds its breath. The IPO — Initial Public Offering — is the moment a private company sells shares to the public for the first time. It generates enormous media coverage, celebrity investor commentary, and retail investor FOMO. And almost universally, it generates mediocre long-term returns for the average person who buys in. Understanding how IPOs actually work — and why they are structurally disadvantageous for retail investors — is essential knowledge for any serious investor.</p>
+
+<h3>WHAT ACTUALLY HAPPENS IN AN IPO</h3>
+<p>When a company decides to go public, it hires investment banks (called <em>underwriters</em>) — Goldman Sachs, Morgan Stanley, JP Morgan — to manage the process. The company files a prospectus (in the US, an S-1 document with the SEC) disclosing its financials, risks, and business model. The underwriters then conduct a <em>roadshow</em>, pitching the company to institutional investors — pension funds, hedge funds, asset managers — gathering indications of interest to set the IPO price.</p>
+<p>The IPO price is set the evening before listing. Institutional investors get shares at this price. The next morning, the stock opens on the exchange — and retail investors can buy only at the market price, which is often already 10–20% above the IPO price after the institutional "pop." The system is designed for institutions, not retail investors.</p>
+
+<div class="key-box">
+  <strong>The structural disadvantage:</strong> Institutions receive IPO allocation at the offer price. Retail investors buy in the open market after the stock has already surged. You are buying what institutions are selling.
+</div>
+
+<h3>THE STATISTICS ARE SOBERING</h3>
+<p>Professor Jay Ritter of the University of Florida has tracked IPO performance for decades. His findings, widely cited in academic finance:<br>
+— Average first-day return: approximately 18% (the "IPO pop"). But this accrues to institutional investors with IPO allocations, not retail buyers in the aftermarket.<br>
+— 3-year post-IPO performance: IPOs underperform comparable non-IPO stocks by roughly 3–4% per year on a risk-adjusted basis. Companies go public when market conditions are favourable to sellers — meaning they tend to list when they are most overvalued.<br>
+— The majority of IPOs in any given 5-year window trade below their first-day closing price after three years.</p>
+<p>This does not mean every IPO is a bad investment. But it does mean the statistical base rate for retail investors buying into IPO hype is negative alpha.</p>
+
+<h3>FAMOUS IPO CASE STUDIES</h3>
+<div class="compare-row">
+  <div class="compare-cell"><strong>Airbnb (ABNB)</strong><br>Dec 2020 IPO at $68. Jumped to $146 on day 1 (+114%). Retail buyers at $146 waited two years to see that price again. Long-term holders who bought around $100–120 in early aftermarket eventually did well as the business matured.</div>
+  <div class="compare-cell"><strong>Uber (UBER)</strong><br>May 2019 IPO at $45. Closed day 1 at $41.57 — below the IPO price. The media called it a "failed IPO." Institutional investors who got shares at $45 and sold on open were fine. Retail buyers at $44–45 held losses for two years before the stock recovered.</div>
+</div>
+<div class="compare-row">
+  <div class="compare-cell"><strong>DoorDash (DASH)</strong><br>Dec 2020 IPO at $102. Jumped to $189 on day 1 (+85%). Retail investors buying in the $170–190 range saw the stock fall to $42 within two years. A brutal lesson in FOMO-driven buying at the peak of IPO enthusiasm.</div>
+  <div class="compare-cell"><strong>WeWork</strong><br>Filed to go public in 2019 at a valuation near $47 billion. The prospectus revealed massive losses, questionable governance, and a CEO with numerous self-dealing conflicts. The IPO was withdrawn. The company eventually went bankrupt. The S-1 is mandatory reading for any serious investor — it tells you things the press releases don't.</div>
+</div>
+
+<h3>THE SPACEX QUESTION — THE WORLD'S MOST ANTICIPATED NON-IPO</h3>
+<p>Founded in May 2002 by Elon Musk, SpaceX has become arguably the most consequential private company in the world. Its achievements: first private company to send cargo to the International Space Station (2012), first private company to send astronauts to the ISS (2020), first orbital-class rocket booster to land vertically and be reflown (Falcon 9, from 2015), and the development of Starship — the largest and most powerful rocket ever built, intended to carry humans to Mars.</p>
+<p>SpaceX's estimated revenue reached approximately $9 billion in 2023. In late 2024, a secondary market tender offer implied a company valuation exceeding $200 billion — making it one of the most valuable private companies in history. Yet SpaceX remains firmly private.</p>
+
+<div class="key-box">
+  <strong>Why SpaceX won't IPO (yet):</strong> Elon Musk has stated repeatedly that SpaceX will not go public until its Starlink satellite internet division is generating reliable, positive cash flow. His reasoning: public markets impose quarterly earnings pressure that is incompatible with multi-decade missions like Mars colonisation. "Going to Mars is not compatible with being a public company," Musk has said. Starlink may eventually be spun off and listed separately.
+</div>
+
+<h3>HOW SINGAPORE INVESTORS CAN ACCESS SPACEX TODAY</h3>
+<p>Because SpaceX is private, public market investors cannot buy shares directly. However, several pathways exist — each with significant caveats:</p>
+<p><strong>Secondary markets (Forge Global, EquityZen):</strong> Former SpaceX employees and early investors sometimes sell their vested shares on private secondary market platforms. Platforms like Forge Global and EquityZen facilitate these transactions. However: minimum investment sizes are typically $50,000–$100,000 USD or higher. Access is restricted to accredited investors (in Singapore: net personal assets exceeding S$2 million, or annual income exceeding S$300,000). Shares come with transfer restrictions and limited liquidity. Pricing is opaque relative to public markets.</p>
+<p><strong>Venture capital and private equity funds:</strong> Some funds that hold SpaceX equity are accessible to qualified investors. These come with long lock-up periods (5–10 years), management fees, and carried interest that substantially reduce net returns. Not suitable for most retail investors.</p>
+<p><strong>Indirect listed exposure:</strong> Several listed companies have meaningful SpaceX relationships or expose investors to the aerospace theme — including companies in the satellite, launch services, or defence supply chain. This is indirect and imprecise, but available to all investors through standard brokerages.</p>
+
+<h3>WHAT TO DO WHEN SPACEX DOES IPO</h3>
+<p>When SpaceX eventually lists — whether as a full company or as a Starlink spinoff — the media frenzy will be unprecedented. Here is the rational framework for evaluating it:</p>
+<p><strong>Read the prospectus (S-1):</strong> Before buying a single share, read the risk factors section. This document, filed with the SEC, contains the company's own disclosure of every material risk. The WeWork S-1, if read carefully, telegraphed every subsequent disaster. The SpaceX S-1 will tell you the revenue mix, margin structure, Starlink subscriber counts, government contract concentration, and competitive risks in plain language.</p>
+<p><strong>Don't buy on day one:</strong> The first-day surge benefits institutional holders. If the business case is genuinely strong, the stock will still be available at a reasonable price in week two, month two, or year two. Patience is a structural advantage retail investors can actually exercise. Institutions face redemption pressure, benchmark tracking, and window dressing. You do not.</p>
+<p><strong>Size it appropriately:</strong> Even if SpaceX is a genuine long-term compounder, it should not constitute more than 5–10% of a diversified portfolio at IPO. Concentration in a single name — however compelling — is speculation, not investment.</p>
+<p><strong>Evaluate the business, not the mission:</strong> SpaceX's mission is inspiring. But publicly listed shares are claims on cash flows, not on the mission itself. Evaluate the business on revenue growth, path to profitability, capital intensity, and competitive moat — the same framework you would apply to any other stock.</p>
+
+<h3>THE BOTTOM LINE ON IPOS</h3>
+<p>IPOs are designed to generate maximum proceeds for selling shareholders at the moment of maximum optimism. The institutional machinery that prices and allocates IPO shares is efficient — at extracting value from retail participants who buy in on day one. The historically documented path to alpha is not chasing IPOs but owning diversified, low-cost index funds that systematically capture all the winners after the IPO froth settles — including the SpaceXs of the world, when they eventually list.</p>
+<p>If SpaceX lists and the business fundamentals support it, consider a small, disciplined allocation — not as a lottery ticket, but as a genuine long-term equity position in a business you understand. That is how IPOs should be approached: with a prospectus in hand, a price discipline in mind, and no more capital than you can afford to hold through the inevitable post-IPO volatility.</p>`
   }
 };
 
