@@ -632,15 +632,15 @@ The fee difference: <strong>$311,000</strong> — more than three times your ori
 
   '13': {
     cat: 'STRATEGY',
-    title: 'IPOS EXPLAINED: THE HYPE, THE REALITY, AND THE SPACEX QUESTION',
+    title: 'IPOS EXPLAINED: THE HYPE, THE REALITY, AND SPACEX\'S HISTORIC DEBUT',
     body: `
 <div class="stat-row">
-  <div class="stat-cell"><span class="fig">~18%</span><span class="lbl">Average first-day IPO pop (historical US)</span></div>
-  <div class="stat-cell"><span class="fig">–3 to –4%</span><span class="lbl">Avg. annual underperformance vs market, 3 yrs post-IPO</span></div>
-  <div class="stat-cell"><span class="fig">$200B+</span><span class="lbl">SpaceX private valuation (2024 tender offers)</span></div>
+  <div class="stat-cell"><span class="fig">$135</span><span class="lbl">SpaceX IPO price (12 Jun 2026, NASDAQ: SPCX)</span></div>
+  <div class="stat-cell"><span class="fig">+19%</span><span class="lbl">First-day close at $161 — largest IPO in history ($75B raised)</span></div>
+  <div class="stat-cell"><span class="fig">~$202</span><span class="lbl">SPCX price by 16 Jun — +49% from IPO in 4 trading days</span></div>
 </div>
 
-<p>Every few years, a company goes public and the financial world holds its breath. The IPO — Initial Public Offering — is the moment a private company sells shares to the public for the first time. It generates enormous media coverage, celebrity investor commentary, and retail investor FOMO. And almost universally, it generates mediocre long-term returns for the average person who buys in. Understanding how IPOs actually work — and why they are structurally disadvantageous for retail investors — is essential knowledge for any serious investor.</p>
+<p>On 12 June 2026, SpaceX made history. The company priced its IPO at $135 per share, raised $75 billion — the largest IPO ever recorded — and listed on the NASDAQ under the ticker <strong>SPCX</strong>. Shares opened at $150, surged to an intraday high of over 30% above the IPO price, and closed day one at $161, a 19% gain. By 16 June, SPCX was trading near $202 — a 49% return from IPO price in four trading days. Elon Musk became, according to multiple reports, the world's first trillionaire. The SpaceX IPO is now a textbook case study in the mechanics of public listings — and a reminder of exactly why retail investors must understand the structure before participating. (Sources: NPR, CNBC, NBC News, Yahoo Finance)</p>
 
 <h3>WHAT ACTUALLY HAPPENS IN AN IPO</h3>
 <p>When a company decides to go public, it hires investment banks (called <em>underwriters</em>) — Goldman Sachs, Morgan Stanley, JP Morgan — to manage the process. The company files a prospectus (in the US, an S-1 document with the SEC) disclosing its financials, risks, and business model. The underwriters then conduct a <em>roadshow</em>, pitching the company to institutional investors — pension funds, hedge funds, asset managers — gathering indications of interest to set the IPO price.</p>
@@ -667,30 +667,34 @@ The fee difference: <strong>$311,000</strong> — more than three times your ori
   <div class="compare-cell"><strong>WeWork</strong><br>Filed to go public in 2019 at a valuation near $47 billion. The prospectus revealed massive losses, questionable governance, and a CEO with numerous self-dealing conflicts. The IPO was withdrawn. The company eventually went bankrupt. The S-1 is mandatory reading for any serious investor — it tells you things the press releases don't.</div>
 </div>
 
-<h3>THE SPACEX QUESTION — THE WORLD'S MOST ANTICIPATED NON-IPO</h3>
-<p>Founded in May 2002 by Elon Musk, SpaceX has become arguably the most consequential private company in the world. Its achievements: first private company to send cargo to the International Space Station (2012), first private company to send astronauts to the ISS (2020), first orbital-class rocket booster to land vertically and be reflown (Falcon 9, from 2015), and the development of Starship — the largest and most powerful rocket ever built, intended to carry humans to Mars.</p>
-<p>SpaceX's estimated revenue reached approximately $9 billion in 2023. In late 2024, a secondary market tender offer implied a company valuation exceeding $200 billion — making it one of the most valuable private companies in history. Yet SpaceX remains firmly private.</p>
+<h3>SPACEX (SPCX) — THE WORLD'S BIGGEST IPO, NOW LIVE</h3>
+<p>Founded in May 2002 by Elon Musk, SpaceX is now a publicly listed company. Its achievements: first private company to send cargo to the International Space Station (2012), first private company to send astronauts to the ISS (2020), first orbital-class rocket booster to land vertically and be reflown (Falcon 9, from 2015), and the development of Starship — the largest and most powerful rocket ever built. On 12 June 2026, SpaceX listed on the NASDAQ under ticker <strong>SPCX</strong> at $135 per share, raising $75 billion — surpassing Aramco's 2019 record ($25.6B) to become the largest IPO in history.</p>
 
 <div class="key-box">
-  <strong>Why SpaceX won't IPO (yet):</strong> Elon Musk has stated repeatedly that SpaceX will not go public until its Starlink satellite internet division is generating reliable, positive cash flow. His reasoning: public markets impose quarterly earnings pressure that is incompatible with multi-decade missions like Mars colonisation. "Going to Mars is not compatible with being a public company," Musk has said. Starlink may eventually be spun off and listed separately.
+  <strong>SPCX live performance (as of 16 Jun 2026):</strong><br>
+  IPO price: $135 &nbsp;|&nbsp; Day 1 open: $150 (+11%) &nbsp;|&nbsp; Day 1 close: $161 (+19%)<br>
+  Intraday peak day 1: +30%+ &nbsp;|&nbsp; Price by 16 Jun: ~$202 (+49% from IPO in 4 days)<br>
+  Market cap at listing: ~$1.75 trillion &nbsp;|&nbsp; Elon Musk became reported world's first trillionaire<br>
+  <em>Sources: NPR, CNBC, NBC News, Yahoo Finance (Jun 2026)</em>
 </div>
 
-<h3>HOW SINGAPORE INVESTORS CAN ACCESS SPACEX TODAY</h3>
-<p>Because SpaceX is private, public market investors cannot buy shares directly. However, several pathways exist — each with significant caveats:</p>
-<p><strong>Secondary markets (Forge Global, EquityZen):</strong> Former SpaceX employees and early investors sometimes sell their vested shares on private secondary market platforms. Platforms like Forge Global and EquityZen facilitate these transactions. However: minimum investment sizes are typically $50,000–$100,000 USD or higher. Access is restricted to accredited investors (in Singapore: net personal assets exceeding S$2 million, or annual income exceeding S$300,000). Shares come with transfer restrictions and limited liquidity. Pricing is opaque relative to public markets.</p>
-<p><strong>Venture capital and private equity funds:</strong> Some funds that hold SpaceX equity are accessible to qualified investors. These come with long lock-up periods (5–10 years), management fees, and carried interest that substantially reduce net returns. Not suitable for most retail investors.</p>
-<p><strong>Indirect listed exposure:</strong> Several listed companies have meaningful SpaceX relationships or expose investors to the aerospace theme — including companies in the satellite, launch services, or defence supply chain. This is indirect and imprecise, but available to all investors through standard brokerages.</p>
+<h3>WHAT THE SPACEX IPO TEACHES US</h3>
+<p>The SpaceX debut is a masterclass in IPO dynamics — and in why the framework above matters more than ever. Institutional investors who received IPO allocation at $135 made 19% on day one. Retail investors buying at the open ($150) made around 7% that day — meaningful, but the institutional advantage was real and structural. Those who chased the intraday peak (+30%) and sold at close absorbed a significant drawdown within hours.</p>
+<p>By 16 June, SPCX had reached ~$202 — 49% above the IPO price in four trading days. This kind of early volatility is precisely why sizing discipline matters. A 5% portfolio allocation to SPCX at IPO has grown quickly; a 25% allocation would have produced gut-wrenching swings even as the direction was upward. The 52-week range already spans from $135 to $225.64 — a $90 spread in less than a week of trading. Buckle up.</p>
 
-<h3>WHAT TO DO WHEN SPACEX DOES IPO</h3>
-<p>When SpaceX eventually lists — whether as a full company or as a Starlink spinoff — the media frenzy will be unprecedented. Here is the rational framework for evaluating it:</p>
-<p><strong>Read the prospectus (S-1):</strong> Before buying a single share, read the risk factors section. This document, filed with the SEC, contains the company's own disclosure of every material risk. The WeWork S-1, if read carefully, telegraphed every subsequent disaster. The SpaceX S-1 will tell you the revenue mix, margin structure, Starlink subscriber counts, government contract concentration, and competitive risks in plain language.</p>
-<p><strong>Don't buy on day one:</strong> The first-day surge benefits institutional holders. If the business case is genuinely strong, the stock will still be available at a reasonable price in week two, month two, or year two. Patience is a structural advantage retail investors can actually exercise. Institutions face redemption pressure, benchmark tracking, and window dressing. You do not.</p>
-<p><strong>Size it appropriately:</strong> Even if SpaceX is a genuine long-term compounder, it should not constitute more than 5–10% of a diversified portfolio at IPO. Concentration in a single name — however compelling — is speculation, not investment.</p>
-<p><strong>Evaluate the business, not the mission:</strong> SpaceX's mission is inspiring. But publicly listed shares are claims on cash flows, not on the mission itself. Evaluate the business on revenue growth, path to profitability, capital intensity, and competitive moat — the same framework you would apply to any other stock.</p>
+<h3>HOW SINGAPORE INVESTORS CAN BUY SPCX NOW</h3>
+<p>SpaceX is now accessible to any Singapore investor with a US market brokerage account. The standard platforms — Tiger Brokers, Moomoo, Interactive Brokers, Syfe Trade — all provide NASDAQ access. Search for ticker <strong>SPCX</strong>. No accredited investor status required. No minimum beyond the share price.</p>
+<p><strong>Key considerations before buying:</strong> SPCX is a US-listed stock, so the 30% US withholding tax applies to any dividends paid (SpaceX currently pays no dividend — it reinvests all cash into R&D). The US estate tax exemption for Singapore investors remains only $60,000 for US-situs assets — factor this into position sizing. Currency risk applies: the position is in USD.</p>
+
+<h3>HOW TO THINK ABOUT SPCX NOW THAT IT'S PUBLIC</h3>
+<p><strong>Read the S-1 (prospectus):</strong> SpaceX's SEC filing discloses its revenue breakdown, Starlink subscriber metrics, NASA/DoD contract concentration, and capital expenditure requirements. This document is publicly available and tells you more about the business than any news article. Read the risk factors section in full.</p>
+<p><strong>Valuation context:</strong> At a ~$1.75T valuation at IPO — and ~$2T+ at current prices — SpaceX is priced as a company that will dominate both launch services and satellite internet globally for decades. That may prove correct. But at these multiples, the margin for error is thin. Compare: the entire aerospace & defence sector globally is worth roughly $1.3T. SpaceX alone now exceeds it.</p>
+<p><strong>Lock-up expiry watch:</strong> Insider shares (employees, early investors) are typically locked up for 180 days post-IPO. When that window opens in approximately December 2026, significant selling pressure is common. This is not a reason to avoid the stock, but it is a date to have in your calendar.</p>
+<p><strong>Size it appropriately:</strong> Even if SPCX is a genuine long-term compounder, concentration above 5–10% of a diversified portfolio is speculation, not investing. The mission is inspiring; the shares are claims on cash flows.</p>
 
 <h3>THE BOTTOM LINE ON IPOS</h3>
-<p>IPOs are designed to generate maximum proceeds for selling shareholders at the moment of maximum optimism. The institutional machinery that prices and allocates IPO shares is efficient — at extracting value from retail participants who buy in on day one. The historically documented path to alpha is not chasing IPOs but owning diversified, low-cost index funds that systematically capture all the winners after the IPO froth settles — including the SpaceXs of the world, when they eventually list.</p>
-<p>If SpaceX lists and the business fundamentals support it, consider a small, disciplined allocation — not as a lottery ticket, but as a genuine long-term equity position in a business you understand. That is how IPOs should be approached: with a prospectus in hand, a price discipline in mind, and no more capital than you can afford to hold through the inevitable post-IPO volatility.</p>`
+<p>IPOs are designed to generate maximum proceeds for selling shareholders at the moment of maximum optimism. SpaceX's debut was extraordinary — and it validated the framework: institutions got $135, retail got $150 at open, chasers got the intraday peak. The structurally advantaged party was the one with IPO allocation.</p>
+<p>The historically documented path to wealth is not chasing IPOs but owning diversified, low-cost index funds that systematically capture all the winners. SpaceX is now in those indices. If you choose to own it directly, do so with a prospectus read, a price discipline in mind, and no more capital than you can afford to hold through inevitable volatility — because at $202 and climbing, the easy money has already been made by others.</p>`
   }
 };
 
